@@ -1,0 +1,193 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1b1b32;
+}
+
+#header {
+  background-color: #0a0a23;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#header-img {
+  width: 220px;
+  margin: 0 auto;
+}
+
+#nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  width: 30%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-link:hover {
+  background-color: #21218b;
+}
+
+#hero-section {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #1b1b32;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fff;
+  color: #007bff;
+  cursor: pointer;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  font-weight: 600;
+  
+}
+
+#section3 {
+  padding: 80px 20px;
+  background-color: #1b1b32;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.feature {
+  text-align: center;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.feature img {
+  width: 80px;
+  margin-bottom: 20px;
+}
+.feature:nth-child(4) img {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+#form-section {
+  text-align: center;
+  padding: 0 20px;
+  background-color: #1b1b32;
+  color: white;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#submit {
+  background-color: #fff;
+  color: #007bff;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+#footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+#video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1b32;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .cta-button {
+    font-size: 1em;
+  }
+
+  #section3 {
+    padding: 40px 20px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .feature img {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+
+
+  #form {
+    max-width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  #footer {
+    padding: 10px;
+  }
+
+}
