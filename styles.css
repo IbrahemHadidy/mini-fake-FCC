@@ -70,7 +70,7 @@ p {
   border-radius: 5px;
   font-size: 1.2em;
   font-weight: 600;
-
+  
 }
 
 #section3 {
@@ -143,12 +143,18 @@ input {
 }
 
 #video-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1b1b32;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
 }
-
+iframe {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  padding-right: 10%;
+  padding-left: 10%;
+  z-index: -1;
+}
 
 @media (max-width: 768px) {
   h1 {
